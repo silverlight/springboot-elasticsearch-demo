@@ -1,7 +1,6 @@
 package org.silverlight.elasticsearch.controller;
 
 import org.silverlight.elasticsearch.model.CellPhone;
-import org.silverlight.elasticsearch.model.CellPhoneSearchModel;
 import org.silverlight.elasticsearch.service.CellphoneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

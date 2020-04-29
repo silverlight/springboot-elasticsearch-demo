@@ -2,7 +2,6 @@ package org.silverlight.elasticsearch.service.impl;
 
 import org.elasticsearch.index.query.QueryBuilders;
 import org.silverlight.elasticsearch.model.CellPhone;
-import org.silverlight.elasticsearch.model.CellPhoneSearchModel;
 import org.silverlight.elasticsearch.repository.CellPhoneRepository;
 import org.silverlight.elasticsearch.service.CellphoneService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +9,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate;
-import org.springframework.data.elasticsearch.core.aggregation.AggregatedPage;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,6 @@
 package org.silverlight.elasticsearch.service;
 
 import org.silverlight.elasticsearch.model.CellPhone;
-import org.silverlight.elasticsearch.model.CellPhoneSearchModel;
 import org.springframework.data.domain.Page;
 
 import java.util.List;
